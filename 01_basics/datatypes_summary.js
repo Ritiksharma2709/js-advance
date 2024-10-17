@@ -22,3 +22,25 @@ const myfunction=function(){
 console.log("hello world")
 }//datatype function also known as object function
 console.log(typeof id);
+
+
+
+
+//++++++++++++++++++++++++++++++++++++
+
+//stack(primitive),heap(non primitive)
+let myYoutubename="factzwar"
+let anothername=myYoutubename
+anothername="'ritik"
+console.log(anothername);
+
+let user={
+    email:"user@google.com",
+    upi:"user#ybl"
+}
+let userTwo=user
+userTwo.email="hitesh@"
+console.log(user.email);
+console.log(userTwo.email);
+
+
